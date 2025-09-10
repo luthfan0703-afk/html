@@ -1,0 +1,15 @@
+.body {
+    background: #6590ab;
+    background: linear-gradient(90deg, rgba(101, 144, 171, 1) 0%, rgba(87, 150, 118, 1) 33%, rgba(237, 221, 83, 1) 100%);
+}
+.link a{
+    font-weight: bold;
+    padding-right: 100px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+
+}
+.nav {
+    border: 1px solid aliceblue;
+}
