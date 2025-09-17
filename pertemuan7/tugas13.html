@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tugas 13</title>
+  </head>
+  <body style="justify-items: center">
+    <table border="1px" cellpadding="10" cellspacing="0" style="background-color: background #22C1C3;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);;">
+      <tr>
+        <th>
+          <form action="action.php" method="post">
+            <h1>form</h1>
+            <div>
+              <label for="klik1">username :</label><br />
+              <input
+                type="text"
+                name="nama"
+                id="klik1"
+                placeholder="username"
+              />
+            </div>
+            <br />
+            <div>
+              <label for="alamat">Alamat:</label><br />
+              <textarea
+                type="text"
+                id="alamat"
+                name="alamat"
+                placeholder="alamat"
+              ></textarea>
+            </div>
+            <br />
+            <div>
+              <label>Jenis Kelamin:</label><br />
+              <input
+                type="radio"
+                id="pria"
+                name="jenis_kelamin"
+                value="Pria"
+                required
+              />
+              <label for="pria">Pria</label><br />
+              <input
+                type="radio"
+                id="wanita"
+                name="jenis_kelamin"
+                value="Wanita"
+              />
+              <label for="wanita">Wanita</label><br /><br />
+
+              <label>Hobi:</label><br />
+              <input type="checkbox" id="memasak" name="hobi" value="Memasak" />
+              <label for="memasak">Memasak</label><br />
+              <input
+                type="checkbox"
+                id="bersepeda"
+                name="hobi"
+                value="Bersepeda"
+              />
+              <label for="bersepeda">Bersepeda</label><br />
+              <input type="checkbox" id="lari" name="hobi" value="Lari" />
+              <label for="lari">Lari</label><br />
+              <input type="checkbox" id="panahan" name="hobi" value="Panahan" />
+              <label for="panahan">Panahan</label><br />
+              <input type="checkbox" id="renang" name="hobi" value="Renang" />
+              <label for="renang">Renang</label><br /><br />
+              <button type="submit">Kirim</button>
+            </div>
+          </form>
+        </th>
+      </tr>
+    </table>
+  </body>
+</html>

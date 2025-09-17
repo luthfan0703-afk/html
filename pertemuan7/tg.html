@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form alamat</title>
+  </head>
+  <body style="justify-items: center">
+    <table
+      border="2"
+      cellpadding="10"
+      cellspacing="0"
+      style="
+        background-color: #22c1c3;
+        background: linear-gradient(
+          180deg,
+          rgba(34, 193, 195, 1) 0%,
+          rgba(253, 187, 45, 1) 100%
+        );
+      "
+    >
+      <tr>
+        <th>
+          <h1>Form</h1>
+          <div>
+            <label for="klik1">alamat web:</label>
+            <input
+              type="url"
+              name="name"
+              id="klik1"
+              placeholder="masukan url web..."
+            />
+          </div>
+          <br />
+          <div style="text-align: left">
+            <label for="klik2">tanggal lahir:</label>
+            <input type="date" name="tanggal" id="klik2" />
+          </div>
+          <br />
+          <div style="text-align: left">
+            <label for="klik2">umur:</label>
+            <input type="number" min="10" max="90" name="umur" />
+          </div>
+          <br />
+          <div style="text-align: left">
+            <label for="klik3">jam lahir saya</label>
+            <input type="time" id="klik3" />
+          </div>
+          <br />
+          <div>
+            <input type="submit" name="submit" value="send" />
+          </div>
+        </th>
+      </tr>
+    </table>
+  </body>
+</html>

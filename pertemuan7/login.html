@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body style="justify-items: center">
+    <table
+      border="1"
+      cellpadding="10"
+      cellspacing="0"
+      style="
+        background-color: #020024;
+        background: linear-gradient(
+          180deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(9, 9, 121, 1) 35%,
+          rgba(0, 212, 255, 1) 100%
+        );
+      "
+    >
+      <tr>
+        <th>
+          <h1>LOGIN WEB</h1>
+          <form action="action.php" method="post">
+            <div>
+              <label for="klik1">username: </label>
+              <input type="text" name="username" id="klik1" />
+            </div>
+            <br />
+            <div>
+              <label for="klik2">password: </label>
+              <input type="password" name="password" id="klik2" />
+            </div>
+            <br />
+            <div style="text-align: center">
+              <label for="klik3"
+                ><input
+                  type="checkbox"
+                  name="checkbox"
+                  id="klik3"
+                  value="remember"
+                />remember</label
+              >
+            </div>
+            <br />
+            <button type="submit">kirim</button>
+          </form>
+        </th>
+      </tr>
+    </table>
+  </body>
+</html>
